@@ -10,8 +10,8 @@ Point any Claude agent at this repo and ask it to install one, e.g.:
 
 Or do it manually:
 
-- **Unpacked (for Claude Code):** copy the skill folder — e.g. `outfits-processing/outfit-flatlay-director/` — into your skills directory (`~/.claude/skills/` for user-wide, or a project's `.claude/skills/`).
-- **Packaged (for the Claude desktop/web Skills UI):** upload the matching `.skill` file — e.g. `outfits-processing/outfit-flatlay-director.skill`.
+- **Claude Code:** copy the skill folder — e.g. `outfits-processing/outfit-flatlay-director/` — into your skills directory (`~/.claude/skills/` for user-wide, or a project's `.claude/skills/`).
+- **Claude desktop/web Skills UI:** zip that skill folder into a `.skill` file first, then upload it (ask any agent to "package this skill folder").
 
 ## Categories
 
@@ -27,4 +27,4 @@ Or do it manually:
 | --- | --- |
 | [`outdoor-amateur-carousel-director`](instagram/outdoor-amateur-carousel-director/) | Builds prompt sets for a locked fictional persona in a swapped outfit, shot as an outdoor amateur/phone-photoshoot **carousel** for Nano Banana / Banana Pro. Two-phase: lock face + body on a base frame, then rebuild the rest of the set from the approved frame. |
 
-Each skill folder contains a `SKILL.md`. The packaged `.skill` file sits alongside the folder for one-click upload.
+Each category holds one folder per skill, named after the skill, containing that skill's `SKILL.md` (plus any bundled resources). Nothing else lives at a category's root.
