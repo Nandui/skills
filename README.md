@@ -26,5 +26,6 @@ Or do it manually:
 | Skill | What it does |
 | --- | --- |
 | [`outdoor-amateur-carousel-director`](instagram/outdoor-amateur-carousel-director/) | Builds prompt sets for a locked fictional persona in a swapped outfit, shot as an outdoor amateur/phone-photoshoot **carousel** for Nano Banana / Banana Pro. Two-phase: lock face + body on a base frame, then rebuild the rest of the set from the approved frame. |
+| [`instagram-post-optimizer`](instagram/instagram-post-optimizer/) | Analyzes a photo or carousel and writes the full post package — a **real-girl caption** (with variants), on-image hook, tiered hashtags, and posting tips — tuned to the creator's persona and goal. Built around sounding like a real person, not a brand. |
 
 Each category holds one folder per skill, named after the skill, containing that skill's `SKILL.md` (plus any bundled resources). Nothing else lives at a category's root.
