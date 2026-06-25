@@ -21,4 +21,10 @@ Or do it manually:
 | --- | --- |
 | [`outfit-flatlay-director`](outfits-processing/outfit-flatlay-director/) | Turns a photo of a worn outfit into a detailed **Nano Banana Pro** (Gemini 3 Pro Image) prompt that recreates the clothing and footwear as a clean overhead **knolling flat lay**. Attach the original photo as the reference image when generating. |
 
+### instagram
+
+| Skill | What it does |
+| --- | --- |
+| [`outdoor-amateur-carousel-director`](instagram/outdoor-amateur-carousel-director/) | Builds prompt sets for a locked fictional persona in a swapped outfit, shot as an outdoor amateur/phone-photoshoot **carousel** for Nano Banana / Banana Pro. Two-phase: lock face + body on a base frame, then rebuild the rest of the set from the approved frame. |
+
 Each skill folder contains a `SKILL.md`. The packaged `.skill` file sits alongside the folder for one-click upload.
