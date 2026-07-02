@@ -28,4 +28,10 @@ Or do it manually:
 | [`outdoor-amateur-carousel-director`](instagram/outdoor-amateur-carousel-director/) | Builds prompt sets for a locked fictional persona in a swapped outfit, shot as an outdoor amateur/phone-photoshoot **carousel** for Nano Banana / Banana Pro. Two-phase: lock face + body on a base frame, then rebuild the rest of the set from the approved frame. |
 | [`instagram-post-optimizer`](instagram/instagram-post-optimizer/) | Analyzes a photo or carousel and writes the full post package — a **real-girl caption** (with variants), on-image hook, tiered hashtags, and posting tips — tuned to the creator's persona and goal. Built around sounding like a real person, not a brand. |
 
+### web-design
+
+| Skill | What it does |
+| --- | --- |
+| [`web-ui-design`](web-design/web-ui-design/) | Designs, builds, or redesigns **modern web app UIs** (Tailwind, Base UI, shadcn/ui, or plain CSS) with real UI/UX grounding — from a single component to a full project. Interviews you before designing from scratch, audits existing code before redesigning, and covers responsive desktop/tablet/mobile behavior, states, and accessibility. |
+
 Each category holds one folder per skill, named after the skill, containing that skill's `SKILL.md` (plus any bundled resources). Nothing else lives at a category's root.
